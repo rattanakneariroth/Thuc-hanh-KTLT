@@ -151,6 +151,7 @@ void allocate_mem(int ***mt, int m, int n){
 
 void input(int **mt, int m, int n){
     //#Input elements of the matrix
+    h
     for(int i = 0 ;i < m ;i++){
     	for(int j=0 ; j<n ;j++){
     		printf("mt[%d][%d] = ",i,j);
@@ -201,4 +202,4 @@ int main(){
     printf("The sum of all even elements is %d \n", process(mt, m, n));
     free_mem(mt, m, n);
     return 0;
-}
+}ohelli
